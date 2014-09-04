@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+body {
+	padding: 1em;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+img {
+	width: 35%;
+}
+
+
+
 ul,
 ol{
 	color: red;
