@@ -1,12 +1,22 @@
 @charset "UTF-8";
 
 body {
-	padding: 1em 1em;
 	font-family:"Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	color: #2E2E2E;
 	display:block;
 	width: 35%;
 	margin: auto;
+	border: solid gray 1px;
+	border-radius: 25px;
+}
+
+.section {
+	border-top: solid gray 1px;
+	padding: 0 1rem;
+}
+
+.sect-color {
+	background-color: #F9F9F9;
 }
 
 .universe {
@@ -32,9 +42,8 @@ figcaption {
 	display:block;
 	padding: 1rem;
 	color: gray;
-	background-color: #F9F9F9;
 	margin: 1em 0;
-	border-bottom: solid gray 1px;
+	border-top: solid gray 1px;
 }
 
 img {
@@ -42,12 +51,9 @@ img {
 }
 
 .quote {
-	background-color: rgba(236,236,236,1.00);
-	border-bottom: solid gray 1px; 
-	border-top: solid gray 1px;
 	overflow: hidden;
 	margin: 0;
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 blockquote,
